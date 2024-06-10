@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: ;
+    font-family: 'poppins', sans-serif;
     scroll-behavior: smooth;
 }
 
@@ -28,7 +28,7 @@ nav.sticky{
 
 
 nav .logo{
-    color: black;  /* (ayknae sada colour hobe) */
+    color: #fff;  
     font-weight: 700;
     font-size: 2em;
     text-justify: none;
@@ -59,7 +59,7 @@ nav.sticky .navigation li a{
 
 nav .navigation li a{
     text-decoration: none;
-    color: #000000;  /* (ayknae sada colour hobe) */
+    color: #fff;  
     font-weight: 400;
     transform: .3s;
 }
@@ -68,3 +68,48 @@ nav .navigation li a:hover{
 }
 
 /* Navber Section Style End */
+
+/*  Hero Section style Start */
+.banner{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Assets/bg.jpg);
+    background-size: cover;
+}
+.banner .content{
+    max-width: 900px;
+    text-align: center;
+}
+.banner .content h2{
+    font-size: 4.5em;
+    color: #fff;
+    transition: -5s;
+}
+.banner .content p{
+    font-size: 1em;
+    color: #fff;
+}
+.btn{
+    font-size: 1em;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 20px;
+    background-color: #ff0157;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: .5s;
+    border-radius: 5px;
+    border: 1px solid #ff0157;
+}
+.btn:hover{
+    letter-spacing: 6px;
+    background-color: transparent;
+    color: #ff0157;
+}
+/*  Hero Section style End */
