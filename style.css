@@ -1,0 +1,70 @@
+/* Universal Style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: ;
+    scroll-behavior: smooth;
+}
+
+/* Navber Section Style Start */
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10000;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transform: -5s;
+}
+nav.sticky{
+    background-color: #fff;
+    padding: 10px 100px;
+    box-shadow: 0 5px 20px rgb(0, 0, 0, 0.05);
+}
+
+
+nav .logo{
+    color: black;  /* (ayknae sada colour hobe) */
+    font-weight: 700;
+    font-size: 2em;
+    text-justify: none;
+    text-decoration: none;
+}
+nav.sticky .logo{
+    color: #111111;
+}
+nav .logo span{
+    color: #FF014F;
+}
+
+nav .navigation{
+    position: relative;
+    display: flex;
+}
+nav .navigation li{
+    list-style: none;
+    margin-left: 30px;
+}
+nav.sticky .navigation li{
+    color: #111111;
+}
+nav.sticky .navigation li a{
+    color: #111111;
+}
+
+
+nav .navigation li a{
+    text-decoration: none;
+    color: #000000;  /* (ayknae sada colour hobe) */
+    font-weight: 400;
+    transform: .3s;
+}
+nav .navigation li a:hover{
+    color:  #ff0157;
+}
+
+/* Navber Section Style End */
