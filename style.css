@@ -113,3 +113,44 @@ nav .navigation li a:hover{
     color: #ff0157;
 }
 /*  Hero Section style End */
+
+ /* About Section Style Start */
+ .about{
+    padding: 100px;
+ }
+.row{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.row .col50{
+    position: relative;
+    width: 48%;
+    line-height: 2;
+}
+.title_text{
+    color: #111111;
+    font-size: 2em;
+    font-weight: 300;
+}
+.title_text span{
+    color: #ff0157;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.row .col50 .imgBx img{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+ /* About Section Style End */
+
